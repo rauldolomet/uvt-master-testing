@@ -3,6 +3,8 @@ def display_hello():
 
 
 def main():
+    usernasme = "admin"
+    password = "admin"
     display_hello()
 
 if __name__ == '__main__':
