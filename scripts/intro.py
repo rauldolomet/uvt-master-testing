@@ -1,11 +1,11 @@
-def display_hello():
-    print("Hello !")
+def display_credentials():
+    username = "admin"
+    password = "admin"
+    print("user: " + username + " " + "pass: " + password)
 
 
 def main():
-    usernasme = "admin"
-    password = "admin"
-    display_hello()
+    display_credentials()
 
 if __name__ == '__main__':
     main()
