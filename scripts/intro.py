@@ -1,7 +1,7 @@
 def display_credentials():
     username = "admin"
     password = "admin"
-    printgh("user: " + username + " " + "pass: " + password)
+    print("user: " + username + " " + "pass: " + password)
 
 
 def main():
