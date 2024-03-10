@@ -81,3 +81,7 @@ jobs:
       uses: github/codeql-action/analyze@v3
       with:
         category: "/language:${{matrix.language}}"
+    
+    - name: Display logs file 
+      run: |
+      cat /home/runner/work/uvt-master-testing/results/python.sarif
