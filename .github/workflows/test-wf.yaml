@@ -82,6 +82,13 @@ jobs:
       with:
         category: "/language:${{matrix.language}}"
     
-    - name: Display logs file 
-      run: |
-      cat /home/runner/work/uvt-master-testing/results/python.sarif
+  display_logs:
+    name: Display logs output file
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      # Use this action to checkout your repository
+
+    - name: Display content of example.txt
+      run: cat /home/runner/work/uvt-master-testing/results/python.sarif
