@@ -13,7 +13,7 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [ $default-branch, $protected-branches ]
+    branch: main
   pull_request:
     branches: [ $default-branch, $protected-branches ]
 
